@@ -111,6 +111,7 @@ overlay.querySelector('.btn__reset').addEventListener('click', () => {
 		addPhraseToDisplay( splitPhrase );
 
 		scoreboard = scoreboard;
+
 		liLetter = document.querySelectorAll('.letter');
 
 		const buttons = qwerty.querySelectorAll('button');
